@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.SobrePage"
+             Title="Sobre o Aplicativo">
+
+    <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Image Source="dotnet_bot.png"
+               WidthRequest="120"
+               HeightRequest="120"
+               HorizontalOptions="Center" />
+
+        <Label Text="App Hotel"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="{StaticResource Primary}" />
+
+        <Label Text="Versão 1.0 - Protótipo Acadêmico"
+               FontSize="14"
+               HorizontalOptions="Center"
+               TextColor="Gray" />
+
+        <Frame BorderColor="{StaticResource Primary}" CornerRadius="10" Padding="15">
+            <VerticalStackLayout Spacing="8">
+                <Label Text="Desenvolvedor:" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Anderson Amancio Junior" FontSize="18" HorizontalOptions="Center" TextColor="{StaticResource Secondary}"/>
+
+                <Label Text="Ano de Desenvolvimento:" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,10,0,0"/>
+                <Label Text="2026" FontSize="16" HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <Label Text="Desenvolvido utilizando a plataforma .NET MAUI como parte das atividades da disciplina Programação Mobile I."
+               HorizontalTextAlignment="Center"
+               FontSize="12"
+               TextColor="DimGray"
+               Margin="0,20,0,0"/>
+
+        <Button Text="Voltar" 
+                Clicked="OnVoltarClicked" 
+                WidthRequest="150" 
+                HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
