@@ -32,7 +32,7 @@
             </VerticalStackLayout>
         </Frame>
 
-        <Label Text="Desenvolvido utilizando a plataforma .NET MAUI como parte das atividades da disciplina Programação Mobile I."
+        <Label Text="Desenvolvido utilizando a plataforma .NET MAUI como parte das atividades da disciplina."
                HorizontalTextAlignment="Center"
                FontSize="12"
                TextColor="DimGray"
